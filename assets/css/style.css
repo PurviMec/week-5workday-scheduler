@@ -1,14 +1,17 @@
+
+
 body {
+  background-image: url("https://media.istockphoto.com/photos/calendar-page-flipping-sheet-close-up-blur-background-business-picture-id1241235622?b=1&k=20&m=1241235622&s=170667a&w=0&h=Mv5W0h2e1135efYHzNXvNKYsRaL1sMsa6MuSArJkh6g=");
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+.textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #240263;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -26,20 +29,20 @@ textarea{
 }
 
 .time-block{
-  text-align: center;
-  border-radius: 15px;
+  text-align: unset;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  color: #0b0125;
+  font-size: 25px;
+  text-align: center;
 }
 
 .past {
@@ -58,14 +61,12 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-radius: 5px;
   background-color: #06AED5;
-  color: white;
+  color: rgb(43, 1, 1);
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
