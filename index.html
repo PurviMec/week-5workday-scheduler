@@ -9,137 +9,157 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
-    <div>
+    <!--header starts -->
+    <div class="mainBody">
       <header class="jumbotron sticky-top">
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
         <p id="currentDay" class="lead"></p>
       </header>
     </div>  
-    <main>
-    <div class="container1 ">
-      <div class="row align-items-start">
-        <div class="col-1 hour time-block">
-          9AM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
-        </div>
-      </div>
-    </div>
-    <div class="container2 ">
-      <div class="row align-items-start">
-        <div class="col-1 hour time-block">
-          10AM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+    
+    <main id="main" class="main">
+    <!-- container 1 row 1-->  
+      <div class="container1 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            9AM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder="" />
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container3">
-      <div class="row align-items-start">
-        <div class="col-1 hour" id="time-block">
-          11AM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
-        </div>
-      </div>
-    </div>
-    <div class="container4">
-      <div class="row align-items-start">
-        <div class="col-1 hour" id="time-block">
-          12PM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+  
+      <!-- container 2 row 2-->
+      <div class="container2 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            10AM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder="" />
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container5">
-      <div class="row align-items-start">
-        <div class="col-1 hour" id="time-block">
-          1PM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
-        </div>
-      </div>
-    </div>
-    <div class="container6">
-      <div class="row align-items-start">
-        <div class="col-1 hour" id="time-block">
-          2PM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+
+    <!-- container3 row 3-->
+      <div class="container3 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            11AM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder="" />
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container7">
-      <div class="row align-items-start">
-        <div class="col-1 hour" id="time-block">
-          3PM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
-        </div>
-      </div>
-    </div>
-    <div class="container8">
-      <div class="row align-items-start">
-        <div class="col-1 hour" id="time-block">
-          4PM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+
+    <!-- container4 row 4-->
+      <div class="container4 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            12PM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder=""  />
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container9">
-      <div class="row align-items-start">
-        <div class="col-1 hour" id="time-block">
-          5PM
-        </div>
-        <div class="col-10">
-          <input type="text" class="input-field col-10" id="input-field" placeholder="" autocomplete="off" />
-        </div>
-        <div class="col-1">
-          <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+
+    <!-- container5 row 5-->
+      <div class="container5 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            1PM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder="" />
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
         </div>
       </div>
-    </div>
+
+      <!-- container6 row 6-->
+      <div class="container6 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            2PM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder=""/>
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
+        </div>
+      </div>
+
+    <!-- container7 row 7-->
+      <div class="container7 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            3PM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder=""/>
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
+        </div>
+      </div>
+
+    <!-- container8 row 8-->
+      <div class="container8 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            4PM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder=""/>
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
+        </div>
+      </div>
+
+    <!-- container9 row 9-->
+      <div class="container9 row1">
+        <div class="row align-items-start">
+          <div class="col-1 hour" id="time-block">
+            5PM
+          </div>
+          <div class="col-10">
+            <input type="text" class="input-field col-10" id="input-field" placeholder=""/>
+          </div>
+          <div class="col-1">
+            <button class="saveBtn" id="save-btn"><span class="oi oi-hard-drive"></span></button>
+          </div>
+        </div>
+      </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
