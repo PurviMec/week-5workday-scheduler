@@ -27,6 +27,7 @@ body {
   padding-top: 20px;
   text-align: center;
   height: 60px;
+  border-bottom: 1px black;
 }
 
 .row1 {
@@ -44,7 +45,7 @@ body {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #312c2c;
   color: white;
 }
 
