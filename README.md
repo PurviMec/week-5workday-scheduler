@@ -11,10 +11,9 @@ To keepup with daily work which helps as reminder.
 * Bootstrap
 
 ## Website
-https://purvimec.github.io/myportfolio/
-
+https://purvimec.github.io/week-5workday-scheduler/
 ## GitHub
-https://github.com/PurviMec/myportfolio.git
+https://github.com/PurviMec/week-5workday-scheduler.git
 
 ## Screen-shot of my work
 /Users/princy/Desktop/workday-scheduler-ss.png
