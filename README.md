@@ -16,7 +16,7 @@ https://purvimec.github.io/week-5workday-scheduler/
 https://github.com/PurviMec/week-5workday-scheduler.git
 
 ## Screen-shot of my work
-/Users/princy/Desktop/workday-scheduler-ss.png
+![workday-scheduler-ss](https://user-images.githubusercontent.com/86253830/134818460-c05c4537-efa8-49a7-a608-d3d9414dd954.png)
 
 
 ## Contribution
